@@ -1,9 +1,9 @@
-package com.crud.common;
+package com.example.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class JDBCUtil2 {
+public class JDBCUtil {
 	public static Connection getConnection(){  
 	    Connection con=null;  
 	    try{  
